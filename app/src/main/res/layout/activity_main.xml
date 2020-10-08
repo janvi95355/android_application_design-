@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:soundEffectsEnabled="false"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:layout_width="232dp"
+        android:layout_height="238dp"
+        android:src="@mipmap/ic_launcher"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <LinearLayout
+        android:layout_width="359dp"
+        android:layout_height="131dp"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+
+        <ImageButton
+            android:id="@+id/AboutUs"
+            android:layout_width="123dp"
+            android:layout_height="119dp"
+            android:background="@drawable/circlebackgroundred"
+            android:contentDescription="@string/AboutUs"
+            android:onClick="doSomething"
+            android:src="@drawable/ic_group_black_24dp">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#CED6DC"
+            android:text="@string/AboutUs"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="InefficientWeight" />
+
+        <ImageButton
+            android:id="@+id/dialog_button"
+            android:layout_width="123dp"
+            android:layout_height="119dp"
+            android:background="@drawable/circlebackgroundblue"
+            android:contentDescription="@string/todo"
+            android:onClick="doSomething"
+            android:src="@drawable/ic_person_black_24dp" />
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="19dp"
+            android:background="#B3CACF"
+            android:text="@string/Directory"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="41dp"
+        android:layout_height="11dp">
+
+    </Space>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="128dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/search_button"
+            android:layout_width="123dp"
+            android:layout_height="119dp"
+            android:background="@drawable/circlebackgrounddarkblue"
+            android:contentDescription="@string/Search"
+            android:onClick="doSomething"
+            android:src="@drawable/ic_search_black_24dp">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#BFC8CF"
+            android:text="@string/Search"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <Space
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            tools:ignore="InefficientWeight">
+
+        </Space>
+
+        <ImageButton
+
+            android:id="@+id/BusinessCardViewID"
+            android:layout_width="123dp"
+            android:layout_height="119dp"
+            android:background="@drawable/circlebackgroundgreen"
+            android:contentDescription="@string/Business"
+            android:onClick="doSomething"
+            android:src="@drawable/ic_business_black_24dp">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#C3D0DA"
+            android:text="@string/Business"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="67dp"
+        android:layout_height="18dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:background="#D1E1E3"
+        android:text="Create By Raj Patel"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

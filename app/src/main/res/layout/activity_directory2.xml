@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Directory">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/DirectoryCardViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginTop="75dp"
+        android:orientation="vertical"
+        android:paddingTop="25dp">
+
+        <TextView
+            android:id="@+id/Patel Raj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patel_raj"
+            android:textSize="14pt" />
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView android:layout_height="match_parent" />
+
+</RelativeLayout>
+

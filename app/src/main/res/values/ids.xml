@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="AboutUsCardViewID" type="id" />
+    <item name="DirectoryCardViewId" type="id" />
+    <item name="searchCardViewID" type="id" />
+    <item name="BusinessCardViewID" type="id" />
+    <item name="SearchCardView" type="id" />
+    <item name="AboutUs_Card" type="id" />
+    <item name="Directory_Card" type="id" />
+    <item name="Search_Card" type="id" />
+    <item name="AboutUs" type="id" />
+    <item name="click" type="id" />
+
+
+</resources>

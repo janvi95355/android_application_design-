@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">SAI BUNGLOWS</string>
+
+    <string name="AboutUs" translatable="true">AboutUs</string>
+    <string name="Directory" translatable="false">Directory</string>
+    <string name="Search" translatable="false">Search</string>
+    <string name="Business" translatable="false">Business</string>
+
+
+    <string name="create_by_raj_patel">Create By Raj Patel</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="well_come_to_about_us">Well come To About Us</string>
+    <string name="WELL_COME_TO_ABOUT_US">WELL COME TO ABOUT US</string>
+    <string name="WELL_COME_TO_BUSINESS_PAGE">WELL COME TO BUSINESS PAGE</string>
+
+    <string name="house_owner_name">House Owner Name</string>
+    <string name="house_no">House No.</string>
+    <string name="patel_raj">Patel Raj</string>
+
+
+</resources>
